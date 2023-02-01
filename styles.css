@@ -8,6 +8,9 @@ body{
     background-color:  #3882fa;
     margin: 10px;
     display: flex;
+    height: 50vh;  /* 100vh is 100% of the screen*/
+    min-height: 100px;
+    width: auto;
 
 }
 #images{
@@ -15,8 +18,11 @@ body{
     margin: 10px;
 
 }
-#logo{
+.left-nav{
     padding: 15px;
+}
+.righ-nav{
+    display: block;
 }
 
 .navbar{
@@ -40,15 +46,20 @@ body{
     color: black;
     font-size: 30px;
     align-content: space-between;
-    gap: 10px;
+    gap: 16px;
     
 }
 .navlist li{
+    display: flex;
     align-self: center;
+    flex-shrink: 1;
 }
 a:link{
     text-decoration: none;
 }
 a:hover{
     color: white;
+}
+li{
+    flex-shrink: 1;
 }
