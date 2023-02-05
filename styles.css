@@ -113,9 +113,38 @@ a:hover{
     text-align: center;
     margin: 0px;
     font-family: 'Roboto', Arial;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .section-1 p{
     color: #000000;
     font-weight: lighter;
     font-style: italic;
+}
+
+.section-2{
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.section-2 button{
+    display: block;
+    text-align: center;
+    width: 150px;
+    height: auto;
+    font-size: 20px;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+}
+.section-2 h3{
+    color: #f9faf8;
+    font-size: 30px;
 }
