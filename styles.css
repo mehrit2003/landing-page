@@ -31,7 +31,7 @@ body{
     
 }
 .link-list ul li{
-    border:  1px solid black; /* border for links items"*/
+    /*border:  1px solid black; /* border for links items"*/
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -147,4 +147,23 @@ a:hover{
 .section-2 h3{
     color: #f9faf8;
     font-size: 30px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    height: 50px;
+}
+.footer p{
+        text-align: center;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    
 }
