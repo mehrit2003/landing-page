@@ -5,7 +5,7 @@ body{
 
 .navbar{
     display: flex;
-    background-color: aqua;
+    background-color: #1f2937;
     display: flex;
     min-width: 20vh;
     justify-content: space-between;
@@ -19,6 +19,7 @@ body{
     display: flex;
     border: 2px black;
     align-items: center;
+    margin-left: auto;
 }
 
 .link-list ul{
@@ -32,5 +33,22 @@ body{
 .link-list ul li{
     border:  1px solid black; /* border for links items"*/
     font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+.header{
+    display: flex;
+    color: #f9faf8;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0px;
+    font-family: 'Roboto', Arial;
+}
